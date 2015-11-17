@@ -1,0 +1,20 @@
+Packaging DEB for freesteam 2.1, including GTK GUI.
+--This line, and those below, will be ignored--
+
+M    debian/rules
+M    debian/freesteam-dev.install
+A    debian/freesteam-gtk.install
+D    debian/freesteam-ascend.files
+M    debian/control
+M    qt/stgui.cpp
+M    qt/stgui.h
+D    gtk/steam_table.glade
+M    gtk/freesteam-gtk.c
+M    gtk/freesteam-gtk.h
+A    gtk/gnome
+A    gtk/gnome/freesteam-gtk-64x64.svg
+A    gtk/gnome/freesteam-gtk.desktop
+AM   gtk/gnome/freesteam-gtk-64x64.png
+M    gtk/SConscript
+A    gtk/freesteam-gtk.glade
+M    ascend/SConscript

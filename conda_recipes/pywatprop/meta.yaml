@@ -1,0 +1,23 @@
+package:
+  name: pywatprop
+  version: 0.1
+
+requirements:
+  build:
+    - python
+    - setuptools
+    - numpy
+    - freesteam
+
+  run:
+    - python
+    - numpy
+    - freesteam
+
+test:
+  imports:
+    - pywatprop
+
+about:
+  license: BSD
+  summary: "Water properties"

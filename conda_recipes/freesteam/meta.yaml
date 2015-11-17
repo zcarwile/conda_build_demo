@@ -1,0 +1,22 @@
+package:
+  name: freesteam
+  version: 2.1
+
+requirements:
+  build:
+    - python
+    - setuptools
+    - numpy
+    - scons
+    - swig
+    - gsl
+
+  run:
+    - python
+    - numpy
+    - matplotlib
+    - gsl
+
+about:
+  license: BSD
+  summary: "Implements Free Steam"
